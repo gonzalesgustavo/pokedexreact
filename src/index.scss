@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Mukta&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #24cbff;
+  --secondary-color: #ff3d75;
+  --primary-shade-color: #6f908a;
+  --secondary-shade-color: #804555;
+  --text-primary: "Mukta", sans-serif;
+  --text-secondary: "Cinzel", serif;
+}

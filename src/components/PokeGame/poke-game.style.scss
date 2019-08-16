@@ -1,0 +1,35 @@
+.PokeGame-score {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.PokeGame-points {
+  padding-left: 4px;
+  color: var(--secondary-color);
+}
+.PokeGame-roll {
+  width: 100%;
+  padding: 4px;
+  margin-top: 2rem;
+  button {
+    cursor: pointer;
+    padding: 7px;
+    width: 100%;
+    height: 3rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    background-color: var(--primary-shade-color);
+    font-size: 1.4rem;
+    font-family: var(--text-secondary);
+    text-shadow: 0.8px 0.8px black;
+    text-transform: uppercase;
+  }
+}
+
+.PokeGame-winner {
+  color: var(--secondary-color);
+}
